@@ -33,6 +33,20 @@ public class complexJsonParse {
             int prices = js.getInt("courses[" + i + "].price");
 
             System.out.println(titleNames + ": The price is: " + prices + " and total copies are: " + totalCopies);
+
+            //print the specific title and its price
         }
+
+        System.out.println("Printing the specific title and its price");
+        for(int i = 0; i<count; i++){
+            String titleNames = js.getString("courses[" + i + "].title");
+            if (titleNames.equalsIgnoreCase("python developer"))
+            {
+                int totPrice = js.getInt("courses["+i+"].price");
+                System.out.println("The price for course "+titleNames+" is "+totPrice+"");
+            }
+        }
+
+        System.out.println("");
     }
 }

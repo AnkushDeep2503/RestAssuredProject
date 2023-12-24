@@ -25,7 +25,7 @@ public class payload {
     {
         return "{\n" +
                 "\t\"dashboard\": {\n" +
-                "\t\t\"purchaseAmount\": 930,\n" +
+                "\t\t\"purchaseAmount\": 2140,\n" +
                 "\t\t\"website\": \"rahulshettyacademy.com\"\n" +
                 "\t},\n" +
                 "\t\"courses\": [\n" +
@@ -43,6 +43,16 @@ public class payload {
                 "\t\t\t\"title\": \"RPA\",\n" +
                 "\t\t\t\"price\": 45,\n" +
                 "\t\t\t\"copies\": 10\n" +
+                "\t\t},\n" +
+                "\t\t{\n" +
+                "\t\t\t\"title\": \"Data Science\",\n" +
+                "\t\t\t\"price\": 50,\n" +
+                "\t\t\t\"copies\": 15\n" +
+                "\t\t},\n" +
+                "\t\t{\n" +
+                "\t\t\t\"title\": \"Python Developer\",\n" +
+                "\t\t\t\"price\": 60,\n" +
+                "\t\t\t\"copies\": 8\n" +
                 "\t\t}\n" +
                 "\t]\n" +
                 "}";
