@@ -57,4 +57,15 @@ public class payload {
                 "\t]\n" +
                 "}";
     }
+
+    public static String addBook(String isbn, String aisle)
+    {
+        String body = "{\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\"John foer\"\n" +
+                "}\n";
+        return body;
+    }
 }
