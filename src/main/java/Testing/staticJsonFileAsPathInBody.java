@@ -15,6 +15,9 @@ import java.nio.file.Files;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
+/* Important Note: This code is specifically for passing json file directly in the body
+* instead of copying json in the file */
+
 public class staticJsonFileAsPathInBody {
 
         public static void main(String[] args) throws IOException {
