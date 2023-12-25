@@ -68,4 +68,11 @@ public class payload {
                 "}\n";
         return body;
     }
+    public static String deleteBook(String bookId)
+    {
+        String body1 = "{\n" +
+                "    \"ID\": \""+bookId+"\"\n" +
+                "}";
+        return body1;
+    }
 }

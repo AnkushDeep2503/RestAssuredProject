@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 
-public class dynamicJson {
+public class dynamicJsonAdd {
     @Test(dataProvider="BooksData")
     public void addBook(String isbn, String aisle)
 
@@ -28,7 +28,6 @@ public class dynamicJson {
         System.out.println(msg +" and its ID is: "+ id);
 
     }
-
 
     @DataProvider(name="BooksData")
     public Object[][] getData()
