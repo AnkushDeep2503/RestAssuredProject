@@ -19,7 +19,7 @@ public class staticJsonFileAsPathInBody {
 
         public static void main(String[] args) throws IOException {
 
-            String JsonFilePath = "restAssured.json";
+            String JsonFilePath = "C:\\Users\\nkusm\\Downloads\\jsonformatter01.json";
             Path path = Paths.get(JsonFilePath);
             String jsonContent = new String (Files.readAllBytes(path));
             System.out.println(jsonContent+"<<<<This one====>>>>");
